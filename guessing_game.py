@@ -13,7 +13,7 @@ a.append(random.randint(1, 99))
 a.append(random.randint(1, 99))
 a.append(random.randint(1, 99))
 a.append(random.randint(1, 99))
-# Pętla for wykonująca się 10 razy
+# Pętla for powtarza się 10 razy
 for i in range(10):
     g = int(input("Enter an integer from 1 to 99: "))
     while a[i] != g:
@@ -38,7 +38,7 @@ b.append(random.randint(1, 49))
 b.append(random.randint(1, 49))
 b.append(random.randint(1, 49))
 b.append(random.randint(1, 49))
-# pętla for wykonująca się 10 razy
+# pętla for powtarza się 10 razy
 for i in range(10):
     g = int(input("Enter an integer from 1 to 49: "))
     while b[i] != g:
@@ -54,3 +54,4 @@ for i in range(10):
 
     # Program losuje 10 liczb z zakresu od 1 do 99 i 
     # od 1 do 49, a następnie w pętli while sprawdza, czy liczba podana przez użytkownika zgadza się z którą
+    # W kodzie wykorzystywana jest biblioteka random, która generuje losowe liczby całkowite z określonego przedziału.
